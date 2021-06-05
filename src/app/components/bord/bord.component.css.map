@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,KAAK,CAAA;EAEH,MAAM,EAAE,IAAI;CAIb;;AAND,AAGE,KAHG,CAGH,KAAK,CAAA;EACH,MAAM,EAAE,mBAAmB;CAC5B",
+    "sources": [
+        "bord.component.scss"
+    ],
+    "names": [],
+    "file": "bord.component.css"
+}

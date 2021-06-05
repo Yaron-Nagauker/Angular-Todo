@@ -1,0 +1,8 @@
+
+<ul cdkDropList
+ [cdkDropListData]="notes" class="bord" (cdkDropListDropped)="drop($event)">
+  <li class="tile" *ngFor="let note of notes" [cdkDragData]="note" cdkDrag>
+    <app-note [note]="note" (emitToBord)="ngOnInit()"></app-note>
+  </li>
+</ul>
+

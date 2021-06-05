@@ -1,0 +1,9 @@
+
+<div class="note">
+  <h5>{{this.note.time | date: 'dd/MM/yy, hh:mm:ss'}}</h5>
+  <p>{{this.note.content}}</p>
+  <div class="btns">
+    <button mat-button id="del" (click)="remove()"><mat-icon class="material-icons-outlined">delete</mat-icon>
+    </button>
+  </div>
+</div>

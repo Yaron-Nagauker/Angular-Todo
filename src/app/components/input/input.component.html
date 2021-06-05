@@ -1,0 +1,13 @@
+<form class="input" >
+  <mat-form-field class="form">
+    <mat-label>Write new task</mat-label>
+    <input type="text"  matInput maxlength="70" name="input" [(ngModel)]="content" >
+  </mat-form-field>
+    <button id="add" type="submit" mat-raised-button (click)="addNewNote()">
+      ADD
+    </button>
+    <button id="close" type="" mat-mini-fab (click)="CloseInput()">
+      <mat-icon>close</mat-icon>
+    </button>
+</form>
+

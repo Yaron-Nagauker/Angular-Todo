@@ -1,0 +1,8 @@
+.bord {
+  margin: 25px;
+}
+
+.bord .tile {
+  border: 1px solid lightgray;
+}
+/*# sourceMappingURL=bord.component.css.map */

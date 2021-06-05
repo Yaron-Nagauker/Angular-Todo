@@ -1,0 +1,6 @@
+<app-header class="header" (sendOpen)="OpenInput()"></app-header>
+
+<app-input *ngIf="isOpen" (sendClose)="closeInput()"></app-input>
+
+<app-bord></app-bord>
+
