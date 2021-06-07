@@ -16,3 +16,18 @@
   }
 
 }
+
+@media (max-width:700px) {
+  #header #main-title{
+    font-size: 20px;
+  }
+  #header #add-btn{
+    font-size: 14px;
+  }
+}
+
+@media (max-width:500px) {
+  .tile{
+    width: 300px;
+  }
+}

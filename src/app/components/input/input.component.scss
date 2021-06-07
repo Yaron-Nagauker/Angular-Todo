@@ -3,10 +3,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  // border: solid 1px  lightgray;
-  min-width: 100px;
-  max-width: 500px;
-  width: 150%;
+  width: 550px;
   margin-left: 25%;
   margin-top: 5%;
   font-size: 20px;
@@ -28,4 +25,73 @@
   height: 40px;
   background-color: white;
   color: rgb(79, 79, 116);
+}
+
+@media (max-width:900px) {
+  .input{
+    width: 450px;
+    #add{
+      font-size: 12px;
+      width: 8px;
+    }
+    #close{
+      border: none;
+      box-shadow: none;
+    }
+  }
+}
+
+@media (max-width:700px) {
+  .input {
+    width: 370px;
+    font-size: 15px;
+    #add{
+      font-size: 12px;
+      width: 8px;
+      height: 35px;
+    }
+    #close{
+      border: none;
+      box-shadow: none;
+    }
+  }
+}
+
+@media (max-width:500px) {
+  .input {
+    width: 300px;
+    font-size: 15px;
+    #add{
+      font-size: 12px;
+      width: 8px;
+      height: 35px;
+    }
+    #close{
+      border: none;
+      box-shadow: none;
+      margin-left: 6px;
+    }
+  }
+}
+
+@media (max-width:425px) {
+  .input {
+    width: 200px;
+    font-size: 15px;
+    #add{
+      font-size: 10px;
+      width: 8px;
+      height: 35px;
+    }
+    #close{
+      border: none;
+      box-shadow: none;
+      font-size: 5px;
+      margin-left: 6px;
+    }
+  }
+}
+
+@media (max-width:380px) {
+
 }
